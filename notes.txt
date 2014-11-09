@@ -1,0 +1,12 @@
+CodeIgniter Learning
+	CRUD
+		active record is used to handle data in model
+		getting data using  mostly get/select where order by
+		inserting dbinsert and attached data array to it and return inserted id
+		updating find where specific id and update table row attaching row data everything in the
+				 co  nstructor () will be shown after the method name / herer will be id or something that is the part of constructor
+		delete find where specific id and and delete table row attaching row data same above.
+	MVC
+		create model for data handling 
+		controller for handle data form model and send them to view
+		view shows data to the user or end user here all html goes 
