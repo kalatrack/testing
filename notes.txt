@@ -10,3 +10,17 @@ CodeIgniter Learning
 		create model for data handling 
 		controller for handle data form model and send them to view
 		view shows data to the user or end user here all html goes 
+
+Difference between helper and libraries 
+	it is just about the classes and functions helper uses functions and libraries are classes in codeigniter
+After download all the dependancy in composer written in composer.json file that are exist in rote of your
+        project it will generate an autoloader file that extends ci autoload class and then use it.
+if we add library directly form github then we just have to setup different files into there corresponding
+	folders where there can be used as a generic codeigniter libraries 
+			$this->load->library('name of library');
+Error reporting for highest level we just set as -1  and 0 for no error reporting that is used in production
+	environment.Profiler is an other greate debugging tool builtin codeigniter that will tell each and every thing about the code as time to execute statement, banchmarks etcs.
+Extending the codeigniter core :
+			in system directory there is a folder named core having all the default class that make codeigniter more special. and in side library folder, class are loaded manually such as cart, html, url.
+		if you want to alter the core of codeigniter you will messup it will be done by this locate same folder but inside the application folder and create file with the same name that destroy the whole class in core of system b
+		but there is another way to deal with you can extends these classes with the MY_classname MY_ is a prefix that tell codeigniter the load automatically as a part of framework.
