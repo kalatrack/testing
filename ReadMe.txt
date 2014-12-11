@@ -7,6 +7,7 @@ login
 registor
 
 Contollers/Actions
+
 questions/add
 questions/detail
 questions/listing

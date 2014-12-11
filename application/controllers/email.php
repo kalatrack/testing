@@ -3,18 +3,11 @@
 	/**
 	* 
 	*/
-	class Email extends CI_Controller
-	{
+	class Email extends CI_Controller{
+		
 		public function __construct(){
 			parent::__construct();
-			$this->load->database();
-			$this->load->library(array('ion_auth','form_validation'));
-			if($this->ion_auth->logged_in() == TRUE){
-				redirect('questions/listing');
-			}else{
-				redirect('welcome');
-			}
-
+		
 		}
 		
 		function index(){

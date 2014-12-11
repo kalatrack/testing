@@ -24,3 +24,4 @@ Extending the codeigniter core :
 			in system directory there is a folder named core having all the default class that make codeigniter more special. and in side library folder, class are loaded manually such as cart, html, url.
 		if you want to alter the core of codeigniter you will messup it will be done by this locate same folder but inside the application folder and create file with the same name that destroy the whole class in core of system b
 		but there is another way to deal with you can extends these classes with the MY_classname MY_ is a prefix that tell codeigniter the load automatically as a part of framework.
+ 
