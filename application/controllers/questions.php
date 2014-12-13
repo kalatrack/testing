@@ -14,7 +14,7 @@
 		public function add(){
 			if(count($_POST)){
 					$this->question_model->insert();
-					redirect('questions/listing');s
+					redirect('questions/listing');
 			}	
 				$this->load_view('questions/add');
 		}
@@ -32,6 +32,7 @@
 
 		}
 		public function listing(){
+			$this-
 			$this->data['questions'] = $this->question_model->get_with_users();
 			$this->load_view('questions/listing',$this->data);	
 		

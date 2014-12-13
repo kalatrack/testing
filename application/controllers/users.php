@@ -39,7 +39,6 @@
 			}
 			
 			//TODO set up subview & load layout
-			echo 'please login now';
 			$this->load_view('users/login');
 		}
 		public function logout(){ 
